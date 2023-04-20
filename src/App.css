@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./Assets/crypto bcc.PNG");
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("./Assets/crypto bcc.PNG");
+    background-position: center;
+  }
+}

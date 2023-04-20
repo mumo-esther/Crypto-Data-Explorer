@@ -32,6 +32,9 @@ Upon loading the homepage, the user is presented with a list of different curren
 
 The application is built using React, Redux, and CSS. It utilizes the Redux Thunk middleware to handle asynchronous actions and the Fetch API to retrieve data from the NAPI. The application is fully responsive, adapting to different screen sizes and devices.
 
+
+![screenshot](./src/Assets/mobile.homepage.PNG?raw=true "Crypto Mobile App")
+
 [PROJECT DOCUMENTATION](https://www.loom.com/share/ed8e2b9e181443e88d7659a90623072c)
 
 [LIVE DEMO](https://cypto-app.onrender.com/)
