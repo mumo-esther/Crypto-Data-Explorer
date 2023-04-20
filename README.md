@@ -34,6 +34,10 @@ The application is built using React, Redux, and CSS. It utilizes the Redux Thun
 
 ![screenshot](./src/Assets/mobile.homepage.PNG?raw=true "Crypto Mobile App")
 
+[PROJECT DOCUMENTATION](https://www.loom.com/share/ed8e2b9e181443e88d7659a90623072c)
+
+[LIVE DEMO](https://cypto-app.onrender.com/)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 - React and redux
