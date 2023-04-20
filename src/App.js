@@ -1,21 +1,21 @@
-import './App.css';
 import React from 'react';
+import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar/Navbar';
-import HomepageList from './components/homepage/HomepageList';
-import Detailspage from './components/details/Detailspage';
+import HomeContainer from './Components/Home/HomeContainer';
+import DetailsContainer from './Components/Details/DetailsContainer';
+import Navigation from './Components/Navigation/Navigation';
 
 function App() {
   return (
-
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<HomepageList />} />
-        <Route path="/details/:smbl" element={<Detailspage />} />
-      </Routes>
-    </Router>
-
+    <div className="App">
+      <Router>
+        <Navigation />
+        <Routes>
+          <Route exact path="/" element={<HomeContainer />} />
+          <Route path="/details/:id" element={<DetailsContainer />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 

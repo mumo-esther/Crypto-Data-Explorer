@@ -1,0 +1,75 @@
+@keyframes fadeBetween {
+  0% {
+    color: gold;
+  }
+
+  15% {
+    color: rgb(240, 211, 47);
+  }
+
+  30% {
+    color: rgb(208, 255, 0);
+  }
+
+  45% {
+    color: rgb(227, 193, 2);
+  }
+
+  60% {
+    color: rgb(234, 255, 0);
+  }
+
+  75% {
+    color: goldenrod;
+  }
+
+  100% {
+    color: goldenrod;
+  }
+}
+
+.nav {
+  background-color: pink;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  font-size: 20px;
+  background-color: #170630cb;
+  color: rgb(212, 209, 209);
+  width: 100%;
+  animation: fadeBetween 35s infinite;
+}
+
+.headerList {
+  list-style: none;
+}
+
+.icons-class {
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+}
+
+.lessthan {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navLinks {
+    padding: 20px 10px;
+    font-size: 16px;
+  }
+
+  .icons-class {
+    width: 60px;
+  }
+
+  .lessthan {
+    font-size: 12px;
+  }
+}
