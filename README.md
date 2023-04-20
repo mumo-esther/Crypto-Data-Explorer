@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-![](https://img.shields.io/badge/METRICSAPP-violetpink)
+![](https://img.shields.io/badge/CRYPTOCURRENCIESAPP-violetpink)
 
 # 📗 Table of Contents
 
@@ -20,17 +20,17 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖Numeric Data Explorer
+# 📖Cryptocurrencies Data Explorer
 
 <a name="about-project"></a>
 
-# Numeric Data Explorer
+# Cryptocurrencies Data Explorer
 
-The Numeric Data Explorer is a web application built using React and Redux that allows users to explore numeric data related to a variety of categories. The webapp retrieves data from the Numbers API, which provides interesting facts about numbers and their associated categories.
+The Cryptocurrencies Data Explorer is a web application built using React and Redux that allows users to explore Cryptocurrencies data related to a variety of categories. The webapp retrieves data from the a coins API to gather datasuch as cryptocurrency exchanges.
 
-Upon loading the homepage, the user is presented with a list of available categories, which they can filter by category name. The webapp displays some numeric values per category that come from the API. When the user clicks on a category item, they are taken to a details page, which retrieves detailed data from the API in the selected category.
+Upon loading the homepage, the user is presented with a list of different currencies, which they can filter by currency name.When the user clicks on a Currency, they are taken to a details page, which retrieves detailed data from the API in the selected Coin.
 
-The application is built using React, Redux, and CSS. It utilizes the Redux Thunk middleware to handle asynchronous actions and the Fetch API to retrieve data from the Numbers API. The application is fully responsive, adapting to different screen sizes and devices.
+The application is built using React, Redux, and CSS. It utilizes the Redux Thunk middleware to handle asynchronous actions and the Fetch API to retrieve data from the NAPI. The application is fully responsive, adapting to different screen sizes and devices.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,10 +42,10 @@ The application is built using React, Redux, and CSS. It utilizes the Redux Thun
 
 ### Key Features
 
-- Browse a list of available categories
-- Filter categories by name
-- View numeric values related to each category
-- Navigate to a details page to view detailed data for each category
+- Browse a list of available currencies
+- Filter currencies by name
+- View Cryptocurrencies values related to each specific currency
+- Navigate to a details page to view detailed data for each currency
 - Fully responsive design, adapting to different screen sizes and devices
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -55,7 +55,7 @@ The application is built using React, Redux, and CSS. It utilizes the Redux Thun
 To get a local copy up and running follow these simple example steps.
 
 - Open terminal
-- Clone this project by the command `git clone https://github.com/mumo-esther/Metrics-App.git`
+- Clone this project by the command `git clone https://github.com/mumo-esther/Crypto-Data-Explorer.git`
 - `cd <clone>` folder
 - Run `npm start` in your local browser or using Live Server in Visual Studio Code.
 
@@ -69,7 +69,7 @@ To get a local copy up and running follow these simple example steps.
 
 Clone this repository to your desired folder:
 `cd my-folder`
-`git clone https://github.com/mumo-esther/Metrics-App.git`
+`git clone https://github.com/mumo-esther/Crypto-Data-Explorer.git`
 
 ### Run tests
 
@@ -79,7 +79,8 @@ To run tests, run the following command:
 
 ### Future Features
 
-- Create an interactive web application using React and Redux that allows users to explore numeric data in a variety of categories
+- Create an interactive web application using React and Redux that allows users to explore Cryptocurrencies data in a variety of currencies.
+- Add a crypto news feed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

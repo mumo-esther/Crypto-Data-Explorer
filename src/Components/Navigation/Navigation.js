@@ -19,11 +19,11 @@ const Navigation = () => {
           <li>
             <Link to="/" style={iconStyle}>
               <FaLessThan className="lessthan" style={iconStyle} />
-              Home
+              <span>Home</span>
             </Link>
           </li>
           <li className="headerList">
-            <h1>Crypto Metrics</h1>
+            <h1>Crypto Data Explorer</h1>
           </li>
           <li className="headerList">
             <div className="icons-class">
